@@ -7,26 +7,23 @@
  */
 
 // 04. declaring variables and assigning string, boolean, undefined and null data types
-let age = 12; //integer
+let age = 12; // integer
 
-let name = "Mary"; //string
+let name = "Mary"; // string
 
-let GoingToSchool = true; // bolean
+let GoingToSchool = true; // boolean
 
-let zero = undefined; // udefined
+let zero = undefined; // undefined
 let infinity = null;  // null
 
 //05. Creating type of operators
-
 console.log(typeof age)
 console.log(typeof GoingToSchool)
 console.log(typeof name)
 console.log(typeof zero)
 console.log(typeof infinity)
 
-//dec
-
-// declaring variables in multiple lines
+//06. declaring variables in multiple lines
 
 let firstName = "Emmanuel";
 let lastName = "Adeyefa";
