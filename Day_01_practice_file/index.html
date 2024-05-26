@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adding Javascirpt to the head tag which is linked externally to a source file -->
+    <script src="introduction.js"></script>
+    <title><title>30DaysOfJavaScript:External script on the body</title>
+  </head>
+  <body>
+    <!-- Adding Javascript as an in-line link inside an html tag -->
+    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
+
+    <!-- Before the closing tag of the body is the recommended place to put the external JavaScript script but other scripts can be added as an internal or external link placed on thye head or before the closing body tag -->
+
+    <!-- internal scripts -->
+    <script>
+      console.log("Welcome to 30DaysOfJavaScript");
+    </script>
+    <script src="hello.js"></script>
+  </body>
+</html>
